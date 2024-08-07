@@ -1,11 +1,13 @@
 import { OrbitControls } from "@react-three/drei";
 import Lights from "./Lights";
 import ShaderBox from "./ShaderBox";
+import SmokeBox from "./SmokeBox";
 
 const Experience = () => {
   return (
     <>
-      <ShaderBox />
+      {/* <ShaderBox /> */}
+      <SmokeBox />
       <Lights />
       <OrbitControls />
     </>
