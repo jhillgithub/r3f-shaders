@@ -6,7 +6,7 @@ import vertexShader from "./holographic.vertex.glsl";
 
 const HolographicMaterial = shaderMaterial(
   {
-    uTime: new Uniform(0.0),
+    uTime: 0.0,
     uColor: new Color("#00f"),
     //stripes
     stripesMovementSpeed: 0.02,
